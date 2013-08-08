@@ -90,7 +90,8 @@ nav ul li a:hover
 	width: 100%;
 
 }
-#principal, #logoLateral, #ffmm
+
+#principal, #logoLateral, #ffmm, #secundario
 {
 	display: inline-block;
 	vertical-align: top;
@@ -256,4 +257,45 @@ nav ul li a:hover
 #ffmm #submit:hover {
 	color: #FFFFFF;
 	transform: scale(1.3);
+}
+
+#temas
+{
+	margin: 0 2em 0 4em;
+	padding: 1em;
+	background: rgba(255,255,255,0.2);
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+}
+
+#temas h2
+{
+	color: #8A0808;
+	font-size: 1.5em;
+	margin: 0 0 1em 0;
+	text-align: left;
+	text-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
+}
+
+#secundario
+{
+	color: #222;
+	font-size: 0.8em;
+	margin: 0 2em 0 0;
+	text-align: justify;
+	text-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
+	width: 40%;
+}
+
+#secundario img
+{
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	border-radius: 1em;
+	width: 100%;
+}
+
+#ecundario figcaption
+{
+	background-color: #222;
+	
 }
