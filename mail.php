@@ -92,12 +92,12 @@
 		//$mail->SetFrom($email, $email);
 		$mail->Subject = "Destinos Angelicales - ".(strtoupper($_POST['nombre']));
 		$mail->MsgHTML($body);
-		$mail->AddAddress('maestrosdelamor@angelesyamor.net'); // Reemplazar por la cuenta de correo a usar PARA RECIBIR EL CORREO	
+		$mail->AddAddress('elangeldelamor@destinosangelicales.net'); // Reemplazar por la cuenta de correo a usar PARA RECIBIR EL CORREO	
 		
 		if ($mail->Send()){
    		?>
 			<script>
-				alert("LOS DATOS HAN SIDO ENVIADOS CON EXITO, DENTRO DE POCO TE CONTACTAREMOS.");
+				alert("LOS DATOS HAN SIDO ENVIADOS CON EXITO.\n\n DENTRO DE POCO TE CONTACTAREMOS.");
 				location="index.html";
 			</script>
 		<?php
