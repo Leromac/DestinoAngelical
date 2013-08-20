@@ -39,7 +39,7 @@
 ?>
 		<script>
 			alert("NO SE ESPECIFICO NINGUNA CIUDAD.");
-			location="contacto.html";
+			location="index.html";
 		</script>
 <?php
 		$valida = $valida+1;
@@ -50,7 +50,7 @@
 ?>
 		<script>
 			alert("POR FAVOR, NO ENVIE EL CASO EN BLANCO.");
-			location="contacto.html";
+			location="index.html";
 		</script>
 <?php
 		$valida = $valida+1;
@@ -62,7 +62,7 @@
 ?>	
 		<script>
 			alert("EL CORREO INGRESADO, NO ES UN CORREO VALIDO.");
-			location="contacto.html";
+			location="index.html";
 		</script>
 <?php
 		//echo "EL CORREO INGRESADO, NO ES UN CORREO VALIDO.";
@@ -98,14 +98,14 @@
    		?>
 			<script>
 				alert("LOS DATOS HAN SIDO ENVIADOS CON EXITO, DENTRO DE POCO TE CONTACTAREMOS.");
-				self.close();
+				location="index.html";
 			</script>
 		<?php
 		} else {
    		?>
 			<script>
 				alert("HA FALLADO EL ENVIO DE LOS DATOS, POR FAVOR INTENTELO NUEVAMENTE.");
-				location="contacto.html";
+				location="index.html";
 			</script>
 		<?php
 		}
